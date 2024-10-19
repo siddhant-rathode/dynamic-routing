@@ -18,6 +18,7 @@ const App = () => {
           <Route path='/service' element={<Service/>}/>
           {/* <Route path='/list' element={<List/>}/> */}
           {/* <Route path='/list/:i' element={<ListItem/>}/> */}
+          
           <Route path='/list' element={<List />}>
             <Route path='/list/:i' element={<ListItem />}/>
           </Route>
